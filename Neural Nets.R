@@ -53,5 +53,3 @@ mse
 pl<-ggplot(error.df,aes(x=test.r,y=y.pred))+geom_point()+stat_smooth()+ggtitle("Boston Crime Predictions")
 
 pl
-
-ggplot(error.df,aes(x=abs(test.r-y.pred)))+geom_bar()
